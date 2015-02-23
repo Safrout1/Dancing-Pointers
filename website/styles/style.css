@@ -13,11 +13,23 @@ body {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFF;
 	margin:auto;
 }
 .card {
  width: 200px;
  height: 200px;
+ background-color: #FFF;
+ border-radius: 20px;
+ background-color: #881824;
+ float: center;
+ display: inline-block;
+}
+.profilecard {
+ width: 300px;
+ height: auto;
  background-color: #FFF;
  border-radius: 20px;
  background-color: #881824;
@@ -33,5 +45,11 @@ p {
 }
 .canvas {
 	width: 1200;
+	text-align: center;
+}
+.info{
+	font-family: Verdana, Courier;
+	color: #AAA;
+	font-size: 0.9em;
 	text-align: center;
 }
